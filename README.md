@@ -5,6 +5,7 @@
 - [Windows 接收端](https://github.com/xfirefly/Airplay-SDK/raw/master/windows-receiver/win-airplay.exe)  
 - **出售Airplay协议源代码, 可运行在 linux / android 等平台**
 - 代码深度优化, 镜像极低延迟, 数万付费用户的选择
+- 支持 1080p/2K/4K 镜像分辨率协商和 30/60 fps 镜像帧率协商
 - 支持Airplay/安卓镜像/DLNA , 支持多个Airplay同时镜像
 - 支持iPhone/iPad 使用USB数据线有线投屏,息屏不断开,帧率稳定 60fps 
 - 支持 Android USB有线投屏, 音画同时镜像, 低延时不卡顿 
