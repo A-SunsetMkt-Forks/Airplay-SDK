@@ -1,15 +1,19 @@
 [[ENGLISH README]](README_EN.md)
 
-## Airplay Receiver For Android & Windows
+## AirPlay Receiver For Android & Windows
 - [安卓接收端](https://www.pgyer.com/SSKV) | [安卓发送端](https://www.pgyer.com/QfhB) | [官网下载](http://iosair.cn/) 
 - [Windows 接收端](https://github.com/xfirefly/Airplay-SDK/raw/master/windows-receiver/win-airplay.exe)  
-- **出售Airplay协议源代码, 可运行在 linux / android 等平台**
-- 代码深度优化, 镜像极低延迟, 数万付费用户的选择
+- **出售 AirPlay 协议源代码, 可运行在 Linux / Android 等平台**
+- 代码深度优化, AirPlay镜像极低延迟, 数万付费用户的选择
 - 支持 1080p/2K/4K 镜像分辨率协商和 30/60 fps 镜像帧率协商
-- 支持Airplay/安卓镜像/DLNA , 支持多个Airplay同时镜像
+- 支持 AirPlay H.265, 这对高分辨率（如 4K）镜像尤其重要
+- 支持预设 AirPlay 密码或随机密码,增强安全性
+- 支持 YouTube 视频投屏观看(AirPlay HLS 协议)
+- 支持 AirPlay ALAC 无损音频传输
+- 支持AirPlay/安卓镜像/DLNA , 支持多个AirPlay同时镜像
 - 支持iPhone/iPad 使用USB数据线有线投屏,息屏不断开,帧率稳定 60fps 
 - 支持 Android USB有线投屏, 音画同时镜像, 低延时不卡顿 
-- iOS和MacOS里, 使用Airplay协议, 无需安装软件, 直接镜像投屏
+- iOS和MacOS里, 使用AirPlay协议, 无需安装软件, 直接镜像投屏
 - Android 安装投屏客户端App, 实现镜像分屏显示
 - 投屏反控, 即Android 接收端反向控制发送端
 - 支持倍速播放, 支持4K视频播放, 可以推送爱奇异/腾讯视频/优酷 等App 的4K内容播放 (依赖于接收端硬件规格)
@@ -33,7 +37,7 @@
 - 支持最多四分屏显示功能, 它的优势在于，可以同时展示4份方案内容在大屏幕上。多台电脑或手机，可以同时将屏幕投屏至电视 
 ![Alt text](image/four.png?raw=true "Title")
 
-- 对竖屏显示做了深度优化, 支持Airplay / Miracast / 手机端App 竖屏显示, 延时低, 不损失原始画质
+- 对竖屏显示做了深度优化, 支持 AirPlay / Miracast / 手机端App 竖屏显示, 延时低, 不损失原始画质
 ![Alt text](image/v.png?raw=true "Title")
 
 ## 投屏教程

@@ -14,11 +14,19 @@
 - Windows system install [screen casting client](https://github.com/xfirefly/Airplay-SDK/raw/master/windows-receiver/win-screen-sender.msi), you can use the screen casting code to cast screen to the corresponding receiver with one key. Support simultaneous mirroring of the computer screen to multiple receivers, the receiver can also display multiple screens at the same time, that is, support for a cast multiple and multi-cast one, suitable for meetings and offices, PPT presentations
  
 ## Specifications
-- Screen Mirroring from iOS and Mac OSX devices.
-- Supports use of hardware H.264 decoder available on the receiver device for low CPU usage and better performance.
-- Has simple and easy to integrate API which is uniform across multiple supported platforms.
-- Supports playback of YouTube free content to the Airplay Receiver device.
-- The source code is available on several different platforms, and can be easily ported to new platforms.
+- Supports 1080p/2K/4K resolution & 30/60 fps frame rate negotiation for mirroring.
+- Supports AirPlay H.265, crucial for high-resolution (e.g., 4K) mirroring.
+- Supports preset or random AirPlay passwords for enhanced security.
+- Supports YouTube video casting (AirPlay HLS protocol).
+- Supports AirPlay ALAC lossless audio transmission.
+- Supports AirPlay, Android mirroring, DLNA, and multiple simultaneous AirPlay streams.
+- Supports wired casting for iPhone/iPad via USB; stays connected with screen off, stable 60fps.
+- Supports Android USB wired casting with synchronized audio/video, low latency, and no lag.
+- Native AirPlay mirroring for iOS/macOS (no app installation required).
+- Android client app for mirroring with split-screen display support.
+- Reverse control: Android receiver controls sender.
+- Supports variable speed playback, 4K video playback, and casting 4K content from apps 
+- Deeply optimized protocol and decoding layers for low latency (120ms), enabling lag-free racing game mirroring.
 
 ## Android App
 - If you’re dying to see exactly what is possible with this SDK/SOURCE, you should check out showcase android app in repository.
