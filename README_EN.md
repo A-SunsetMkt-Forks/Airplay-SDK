@@ -1,50 +1,50 @@
 ## Airplay Receiver For Android & Windows
-- [Android Receiver](https://www.pgyer.com/SSKV) | [Android Sender](https://www.pgyer.com/QfhB) | [Download from official website](http://deeprd.com/) 
-- [Windows receiver](https://github.com/xfirefly/Airplay-SDK/raw/master/windows-receiver/win-airplay.exe)  
-- **Sale Airplay protocol source code, can run on rockchip linux , windows, android platform**
-- Support Airplay/Android mirroring/DLNA , support multiple Airplay simultaneous mirroring
-- Support iPhone/iPad wired casting using USB cable, rest screen constantly open, frame rate 60fps, suitable for large screen games / live education / live games / car casting scenarios
-- Support Android USB wired screen casting, audio and video mirroring at the same time, clear and no lag 
-- iOS and MacOS, using Airplay protocol, no need to install software, direct mirroring screen casting
-- Android installation of screen casting client App, mirroring split screen display
-- Casting screen reverse control, that is, the Android receiver side reverse control the sender side
-- Support multiplier playback, support 4K video playback, can push 4K content from Aiki/ Tencent video/ Youku and other apps (depends on the hardware specification of the receiver)
-- Deep optimization of protocol layer and decoding layer, low latency, no latency for racing games (120ms)
-- Support vertical display, cell phone screen can be enlarged to display on vertical display such as advertising machine
-- Windows system install [screen casting client](https://github.com/xfirefly/Airplay-SDK/raw/master/windows-receiver/win-screen-sender.msi), you can use the screen casting code to cast screen to the corresponding receiver with one key. Support simultaneous mirroring of the computer screen to multiple receivers, the receiver can also display multiple screens at the same time, that is, support for a cast multiple and multi-cast one, suitable for meetings and offices, PPT presentations
- 
+- [Android Receiver](https://www.pgyer.com/SSKV) | [Android Sender](https://www.pgyer.com/QfhB) | [Download from official website](http://deeprd.com/)
+- [Windows receiver](https://github.com/xfirefly/Airplay-SDK/raw/master/windows-receiver/win-airplay.exe)
+- **AirPlay protocol source code for sale, compatible with Rockchip Linux, Windows, and Android platforms.**
+- Supports AirPlay, Android mirroring, and DLNA; supports simultaneous mirroring for multiple AirPlay devices.
+- Supports wired casting for iPhone/iPad via USB cable, maintaining connection even when the screen is off, with a stable 60fps frame rate; ideal for large-screen gaming, live education, live gaming, and in-car casting scenarios.
+- Supports Android USB wired screen casting with synchronized audio and video mirroring, delivering clear, lag-free performance.
+- For iOS and macOS, utilize the AirPlay protocol for direct screen mirroring without needing to install any software.
+- The Android client app enables screen casting with split-screen display functionality.
+- Reverse screen control: The Android receiver can control the sender device.
+- Supports variable speed playback and 4K video playback; enables casting of 4K content from apps like iQiyi, Tencent Video, and Youku (dependent on receiver hardware specifications).
+- Deeply optimized protocol and decoding layers ensure low latency, providing a responsive experience for racing games (120ms latency).
+- Supports vertical displays, allowing smartphone screens to be magnified and displayed on vertical screens such as advertising kiosks or digital signage.
+- Install the [screen casting client](https://github.com/xfirefly/Airplay-SDK/raw/master/windows-receiver/win-screen-sender.msi) on Windows systems to easily cast your screen to a corresponding receiver using a casting code. Supports simultaneous mirroring from one computer to multiple receivers, and a single receiver can display multiple screens concurrently (one-to-many and many-to-one casting). Ideal for meetings, office use, and PPT presentations.
+
 ## Specifications
-- Supports 1080p/2K/4K resolution & 30/60 fps frame rate negotiation for mirroring.
+- Supports 1080p/2K/4K resolution and 30/60 fps frame rate negotiation for mirroring.
 - Supports AirPlay H.265, crucial for high-resolution (e.g., 4K) mirroring.
 - Supports preset or random AirPlay passwords for enhanced security.
 - Supports YouTube video casting (AirPlay HLS protocol).
 - Supports AirPlay ALAC lossless audio transmission.
 - Supports AirPlay, Android mirroring, DLNA, and multiple simultaneous AirPlay streams.
-- Supports wired casting for iPhone/iPad via USB; stays connected with screen off, stable 60fps.
+- Supports wired casting for iPhone/iPad via USB; stays connected even when the screen is off, with a stable 60fps.
 - Supports Android USB wired casting with synchronized audio/video, low latency, and no lag.
 - Native AirPlay mirroring for iOS/macOS (no app installation required).
 - Android client app for mirroring with split-screen display support.
-- Reverse control: Android receiver controls sender.
-- Supports variable speed playback, 4K video playback, and casting 4K content from apps 
-- Deeply optimized protocol and decoding layers for low latency (120ms), enabling lag-free racing game mirroring.
+- Reverse control: Android receiver controls the sender.
+- Supports variable speed playback, 4K video playback, and casting 4K content from various applications.
+- Deeply optimized protocol and decoding layers for low latency (120ms), enabling a responsive experience for racing game mirroring.
 
 ## Android App
-- If you’re dying to see exactly what is possible with this SDK/SOURCE, you should check out showcase android app in repository.
+- To see the full capabilities of this SDK/Source, check out the showcase Android app in the repository.
 
 ## Contact us
-- Contact us to buy or ask questions
+- Contact us for purchases or inquiries.
 - Telegram: https://t.me/maxguguji
 - Wechat: maxfirefly
 - Email: zsxzy@foxmail.com
 
 ## Use Cases
-- Meeting room Collaboration: The SDK allows the presenter to slide the presentation while walking around and being more interactive with the audience, instead of being near to the laptop connected to the big screen to slide through. The mobile display can also be broadcasted on video conference call or webinar through this technology.
+- Meeting Room Collaboration: The SDK enables presenters to control presentations while moving freely, fostering more audience interaction, rather than being tethered to a laptop connected to the large screen. Mobile displays can also be broadcast during video conferences or webinars using this technology.
 
-- Education: The SDK can be used to share the content from Apple devices to the classroom. Thus, the instructor can walk around the room during demonstration. Also, the students can show their work to the whole classroom using this technology. The provision of password protection feature restricts unauthorized access.
+- Education: The SDK can be used to share content from Apple devices in the classroom. This allows instructors to walk around the room during demonstrations, and students can present their work to the entire class using this technology. The password protection feature restricts unauthorized access.
 
-- Home Entertainment: The SDK allows users to watch stored videos/songs and YouTube free content directly to the receiver device over WiFi. It also facilitates easy viewing of photos and videos on a large screen at family and friends gatherings.
+- Home Entertainment: The SDK allows users to stream stored videos, songs, and YouTube free content directly to a receiver device over Wi-Fi. It also facilitates easy viewing of photos and videos on a large screen during gatherings with family and friends.
 
-- Car Infotainment: The SDK allows sharing of screen, playback of audio/video/movies, slideshow of the photos stored on iOS/Mac devices to Android/Embedded Linux based Car Infotainment unit wirelessly for viewing by all occupants in the car. This enables a car to act as a small presentation room, where the iOS user can take the users through presentation on Car Infotainment controlling the slides from the iOS device.
+- Car Infotainment: The SDK allows for wireless screen sharing, playback of audio/video/movies, and photo slideshows from iOS/Mac devices to Android/Embedded Linux-based car infotainment units for viewing by all occupants. This transforms the car into a mobile presentation space, where iOS users can control presentations on the car's display directly from their iOS device.
 
 ## Picture
 ![Alt text](image/mac.jpg?raw=true "Title")
